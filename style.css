@@ -97,6 +97,10 @@ img {
   line-height: 2;
 }
 
+hr {
+  color: black;
+}
+
 /*Carousel*/
 .carousel-item img {
   height: 500px;
@@ -116,4 +120,39 @@ img {
   text-align: center;
 }
 
-/*Footer*/
+/*About Coaches*/
+.card {
+  margin: 0 auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-auto-rows: auto;
+  gap: 20px;
+  font-family: sans-serif;
+  padding-top: 30px;
+  display: inline-block;
+}
+
+.card-title {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+/*Sponsers*/
+.logo {
+  border-radius: 40%;
+  max-width: 50% !important;
+  padding-right: 5px;
+}
+
+.sponder {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.sponser {
+  margin-left: 20px;
+}
