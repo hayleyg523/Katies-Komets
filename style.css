@@ -83,6 +83,7 @@ img {
   text-align: center;
   margin-top: 5px;
   text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .boxed {
@@ -95,3 +96,24 @@ img {
   margin-left: 9px;
   line-height: 2;
 }
+
+/*Carousel*/
+.carousel-item img {
+  height: 500px;
+  width: 900px !important;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.carousel img {
+  margin: auto;
+}
+
+
+/*YouTube Video*/
+.container {
+  display: block;
+  text-align: center;
+}
+
+/*Footer*/
