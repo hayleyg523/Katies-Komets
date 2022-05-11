@@ -83,3 +83,14 @@ class Item extends React.Component {
 
 var items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ReactDOM.render(<Carousel items={items} active={0}/>, document.getElementById('app'))
+
+/**
+ * Scroll with ofset on page load with hash links in the url
+ */
+window.addEventListener('load', () => {
+  if (window.location.hash) {
+    if (select(window.location.hash)) {
+      scrollto(window.location.hash)
+    }
+  }
+});

@@ -171,3 +171,20 @@ a.btn.btn-primary {
 .picture {
   text-align: right;
 }
+
+/*Accomplishments*/
+.box {
+  border: 3px solid black;
+  height: 275px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div.col-sm-3.move {
+  padding-right: 2px;
+}
+
+.accomplishment {
+  text-align: center;
+}
