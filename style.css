@@ -188,3 +188,86 @@ div.col-sm-3.move {
 .accomplishment {
   text-align: center;
 }
+
+/*Instagram*/
+.instagram {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F4F4F4;
+  margin: 0 auto 12px;
+  width:60px;
+}
+
+/*Team Practices*/
+.practice {
+  text-align: center;
+  max-width: 80%;
+  margin-top: 20px;
+  padding-left: 200px;
+}
+
+.text {
+  border: 3px solid black;
+}
+
+i.fa-solid.fa-basketball {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 5px;
+}
+
+/*Google Calendar*/
+.calendar {
+  width: 800px;
+  height: 350px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.schedule {
+  align-items: center;
+}
+
+/*Contact*/
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+.input {
+  width: 100%;
+  border: NONE;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+/*Donation*/
+button.justify-content-center {
+  align-items: center;
+  text-align: center;
+  display: flex !important;
+  margin: auto;
+}
