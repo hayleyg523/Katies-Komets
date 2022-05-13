@@ -228,12 +228,21 @@ i.fa-solid.fa-basketball {
   display: flex;
   justify-content: center;
   margin-left: 300px;
+  margin-bottom: 10px;
 }
 
 .schedule {
   align-items: center;
 }
 
+.location {
+  margin-top: 20px;
+  padding-left: 230px;
+  margin-left: 13px;
+  max-width: 80%;
+  margin-top: 20px;
+  text-align: center;
+}
 /*Contact*/
 .contact-box {
   background: #fff;
