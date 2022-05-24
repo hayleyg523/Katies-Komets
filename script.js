@@ -94,3 +94,16 @@ window.addEventListener('load', () => {
     }
   }
 });
+
+/**
+* Regulations
+*/
+
+function hidePanels() {
+  document.getElementById('divisionRegulationsContent').style.display = 'none';
+}
+
+function showDivision() {
+  hidePanels();
+  document.getElementById('divisionRegulationsContent').style.display = 'block';
+}

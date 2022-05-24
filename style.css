@@ -72,6 +72,13 @@ img {
   width: 100%;
 }
 
+.logo-image{
+   width: 46px;
+   height: 46px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-top: -6px;
+}
 /*Info Box*/
 .katie {
   width: 400px;
@@ -95,10 +102,16 @@ img {
 .information {
   margin-left: 9px;
   line-height: 2;
+  font-family: 'Yanone Kaffeesatz', 400;
+  font-size: 19px;
 }
 
 hr {
   color: black;
+}
+
+p {
+  font-family:
 }
 
 /*Carousel*/
@@ -154,6 +167,11 @@ a.btn.btn-primary {
   margin-right: 25%;
   width: 50%;
 }
+
+.card-text {
+  text-align: center;
+  font-size: 17px;
+}
 /*Sponsers*/
 .logo {
   border-radius: 40%;
@@ -162,10 +180,10 @@ a.btn.btn-primary {
 }
 
 .sponser {
-  margin-left: 20px;
+  margin-left: 30px;
   text-align: center;
   margin-top: 10px;
-  font-family: sans-serif;
+  font-family: 'Yanone Kaffeesatz', 400;
 }
 
 .picture {
@@ -179,6 +197,7 @@ a.btn.btn-primary {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  position: relative;
 }
 
 div.col-sm-3.move {
@@ -187,6 +206,17 @@ div.col-sm-3.move {
 
 .accomplishment {
   text-align: center;
+}
+
+/*Regulations*/
+.p-2 {
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+.p-3 {
+  text-decoration: underline;
+  font-size: 19px;
 }
 
 /*Instagram*/
@@ -244,34 +274,14 @@ i.fa-solid.fa-basketball {
   text-align: center;
 }
 /*Contact*/
-.contact-box {
-  background: #fff;
-  display: flex;
+.form {
+  text-align: center;
 }
 
-.contact-left {
-  flex-basis: 60%;
-  padding: 40px 60px;
+.btn {
+  margin-top: 10px;
 }
 
-.input-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-
-.input-row .input-group {
-  flex-basis: 45%;
-}
-
-.input {
-  width: 100%;
-  border: NONE;
-  border-bottom: 1px solid #ccc;
-  outline: none;
-  padding-bottom: 5px;
-}
 
 /*Donation*/
 button.justify-content-center {
