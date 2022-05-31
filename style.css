@@ -290,3 +290,14 @@ button.justify-content-center {
   display: flex !important;
   margin: auto;
 }
+
+/*Footer*/
+.text-reset {
+  color: white !important;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.links {
+  color: white;
+}
