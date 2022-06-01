@@ -81,9 +81,8 @@ img {
 }
 /*Info Box*/
 .katie {
-  width: 400px;
-  height: 250px;
-  margin-right: 5px;
+
+object-fit: contain;
 }
 
 .heading {
@@ -103,7 +102,7 @@ img {
   margin-left: 9px;
   line-height: 2;
   font-family: 'Yanone Kaffeesatz', 400;
-  font-size: 19px;
+  font-size:  ;
 }
 
 hr {
