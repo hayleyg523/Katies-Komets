@@ -113,6 +113,10 @@ p {
   font-family:
 }
 
+.team {
+  max-height: 230px;
+  overflow: scroll;
+}
 /*Carousel*/
 .carousel-item img {
   height: 500px;
